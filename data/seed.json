@@ -1,0 +1,34 @@
+
+{
+  "stations": [
+    {"station_id": 1, "name": "Tirupati"},
+    {"station_id": 2, "name": "Renigunta"},
+    {"station_id": 3, "name": "Nellore"},
+    {"station_id": 4, "name": "Ongole"},
+    {"station_id": 5, "name": "Vijayawada"},
+    {"station_id": 6, "name": "Chennai Central"},
+    {"station_id": 7, "name": "Gudur"}
+  ],
+  "trains": [
+    {"train_id": 101, "name": "Express A"},
+    {"train_id": 102, "name": "Express B"},
+    {"train_id": 103, "name": "Express C"}
+  ],
+  "train_stops": [
+    {"train_id": 101, "station_id": 1, "stop_order": 1, "arr": "06:00"},
+    {"train_id": 101, "station_id": 2, "stop_order": 2, "arr": "06:30"},
+    {"train_id": 101, "station_id": 3, "stop_order": 3, "arr": "08:30"},
+    {"train_id": 101, "station_id": 4, "stop_order": 4, "arr": "10:00"},
+    {"train_id": 101, "station_id": 5, "stop_order": 5, "arr": "12:00"},
+
+    {"train_id": 102, "station_id": 6, "stop_order": 1, "arr": "07:00"},
+    {"train_id": 102, "station_id": 7, "stop_order": 2, "arr": "09:00"},
+    {"train_id": 102, "station_id": 3, "stop_order": 3, "arr": "10:00"},
+    {"train_id": 102, "station_id": 5, "stop_order": 4, "arr": "14:00"},
+
+    {"train_id": 103, "station_id": 1, "stop_order": 1, "arr": "15:00"},
+    {"train_id": 103, "station_id": 2, "stop_order": 2, "arr": "15:30"},
+    {"train_id": 103, "station_id": 7, "stop_order": 3, "arr": "17:00"},
+    {"train_id": 103, "station_id": 6, "stop_order": 4, "arr": "19:00"}
+  ]
+}
