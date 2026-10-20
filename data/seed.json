@@ -1,37 +1,4 @@
-
 {
-  "stations": [
-    {"station_id": 1, "name": "Tirupati"},
-    {"station_id": 2, "name": "Renigunta"},
-    {"station_id": 3, "name": "Nellore"},
-    {"station_id": 4, "name": "Ongole"},
-    {"station_id": 5, "name": "Vijayawada"},
-    {"station_id": 6, "name": "Chennai Central"},
-    {"station_id": 7, "name": "Gudur"}
-  ],
-  "trains": [
-    {"train_id": 101, "name": "Express A"},
-    {"train_id": 102, "name": "Express B"},
-    {"train_id": 103, "name": "Express C"}
-  ],
-  "train_stops": [
-    {"train_id": 101, "station_id": 1, "stop_order": 1, "arr": "06:00"},
-    {"train_id": 101, "station_id": 2, "stop_order": 2, "arr": "06:30"},
-    {"train_id": 101, "station_id": 3, "stop_order": 3, "arr": "08:30"},
-    {"train_id": 101, "station_id": 4, "stop_order": 4, "arr": "10:00"},
-    {"train_id": 101, "station_id": 5, "stop_order": 5, "arr": "12:00"},
-
-    {"train_id": 102, "station_id": 6, "stop_order": 1, "arr": "07:00"},
-    {"train_id": 102, "station_id": 7, "stop_order": 2, "arr": "09:00"},
-    {"train_id": 102, "station_id": 3, "stop_order": 3, "arr": "10:00"},
-    {"train_id": 102, "station_id": 5, "stop_order": 4, "arr": "14:00"},
-
-    {"train_id": 103, "station_id": 1, "stop_order": 1, "arr": "15:00"},
-    {"train_id": 103, "station_id": 2, "stop_order": 2, "arr": "15:30"},
-    {"train_id": 103, "station_id": 7, "stop_order": 3, "arr": "17:00"},
-    {"train_id": 103, "station_id": 6, "stop_order": 4, "arr": "19:00"}
-  ]
-}{
 "trains":[{"train_id": 1, "name": "Tirupati–Chennai Express"},{"train_id": 2, "name": "Sapthagiri Express"},{"train_id": 3, "name": "Tirupati–Bengaluru Intercity"},{"train_id": 4, "name": "Tirupati–Secunderabad Express"},{"train_id": 5, "name": "Tirupati–Visakhapatnam Express"},{"train_id": 6, "name": "Chennai–Hyderabad Express"},{"train_id": 7, "name": "Chennai–Bengaluru Shatabdi"},{"train_id": 8, "name": "Chennai–Visakhapatnam Express"},{"train_id": 9, "name": "Hyderabad–Visakhapatnam Express"},{"train_id": 10, "name": "Bengaluru–Chennai Express"},{"train_id": 11, "name": "Chennai–Tirupati Express"},{"train_id": 12, "name": "Chennai–Tirupati Sapthagiri Express"},{"train_id": 13, "name": "Chennai–Tirupati Intercity"},{"train_id": 14, "name": "Bengaluru–Tirupati Intercity"},{"train_id": 15, "name": "Secunderabad–Tirupati Express"},{"train_id": 16, "name": "Visakhapatnam–Tirupati Express"},{"train_id": 17, "name": "Hyderabad–Chennai Express"},{"train_id": 18, "name": "Bengaluru–Chennai Shatabdi"},{"train_id": 19, "name": "Visakhapatnam–Chennai Express"},{"train_id": 20, "name": "Visakhapatnam–Hyderabad Express"},{"train_id": 21, "name": "Chennai–Coimbatore Express"},{"train_id": 22, "name": "Coimbatore–Chennai Express"},{"train_id": 23, "name": "Chennai–Madurai Express"},{"train_id": 24, "name": "Madurai–Chennai Express"},{"train_id": 25, "name": "Bengaluru–Mysuru Express"},{"train_id": 26, "name": "Mysuru–Bengaluru Express"},{"train_id": 27, "name": "Bengaluru–Coimbatore Express"},{"train_id": 28, "name": "Coimbatore–Bengaluru Express"},{"train_id": 29, "name": "Vijayawada–Guntur Passenger"},{"train_id": 30, "name": "Guntur–Vijayawada Passenger"},{"train_id": 31, "name": "Guntur–Tirupati Express"},{"train_id": 32, "name": "Tirupati–Guntur Express"},{"train_id": 33, "name": "Tirupati–Chennai Intercity"},{"train_id": 34, "name": "Mumbai–Pune Express"},{"train_id": 35, "name": "Pune–Mumbai Express"},{"train_id": 36, "name": "Chennai–Mumbai Express"},{"train_id": 37, "name": "Mumbai–Chennai Express"},{"train_id": 38, "name": "Hyderabad–Mumbai Express"},{"train_id": 39, "name": "Mumbai–Hyderabad Express"},{"train_id": 40, "name": "Chennai–Delhi Grand Trunk Express"},{"train_id": 41, "name": "Delhi–Chennai Grand Trunk Express"},{"train_id": 42, "name": "Mumbai–Ahmedabad Express"},{"train_id": 43, "name": "Ahmedabad–Mumbai Express"},{"train_id": 44, "name": "Delhi–Jaipur Express"},{"train_id": 45, "name": "Jaipur–Delhi Express"},{"train_id": 46, "name": "Delhi–Lucknow Express"},{"train_id": 47, "name": "Lucknow–Delhi Express"},{"train_id": 48, "name": "Kolkata–Chennai Coromandel Express"},{"train_id": 49, "name": "Chennai–Kolkata Coromandel Express"},{"train_id": 50, "name": "Kolkata–Bhubaneswar Express"},{"train_id": 51, "name": "Bhubaneswar–Kolkata Express"},{"train_id": 52, "name": "Chennai–Thiruvananthapuram Express"},{"train_id": 53, "name": "Thiruvananthapuram–Chennai Express"},{"train_id": 54, "name": "Coimbatore–Ernakulam Intercity"},{"train_id": 55, "name": "Ernakulam–Coimbatore Intercity"},{"train_id": 56, "name": "Hyderabad–Delhi Express"},{"train_id": 57, "name": "Delhi–Hyderabad Express"},{"train_id": 58, "name": "Bengaluru–Mumbai Udyan Express"},{"train_id": 59, "name": "Mumbai–Bengaluru Udyan Express"},{"train_id": 60, "name": "Tirupati–Mumbai Express"},{"train_id": 61, "name": "Mumbai–Tirupati Express"},{"train_id": 62, "name": "Delhi–Agra Gatimaan Express"},{"train_id": 63, "name": "Agra–Delhi Gatimaan Express"}],
 "stations":[{"station_id": 1, "name": "Tirupati"},{"station_id": 2, "name": "Renigunta"},{"station_id": 3, "name": "Arakkonam"},{"station_id": 4, "name": "Chennai Central"},{"station_id": 5, "name": "Katpadi"},{"station_id": 6, "name": "Bengaluru"},{"station_id": 7, "name": "Gudur"},{"station_id": 8, "name": "Nellore"},{"station_id": 9, "name": "Ongole"},{"station_id": 10, "name": "Vijayawada"},{"station_id": 11, "name": "Hyderabad"},{"station_id": 12, "name": "Rajahmundry"},{"station_id": 13, "name": "Visakhapatnam"},{"station_id": 14, "name": "Salem"},{"station_id": 15, "name": "Erode"},{"station_id": 16, "name": "Coimbatore"},{"station_id": 17, "name": "Tiruchirappalli"},{"station_id": 18, "name": "Madurai"},{"station_id": 19, "name": "Mysuru"},{"station_id": 20, "name": "Guntur"},{"station_id": 21, "name": "Mumbai"},{"station_id": 22, "name": "Pune"},{"station_id": 23, "name": "Solapur"},{"station_id": 24, "name": "Guntakal"},{"station_id": 25, "name": "Delhi"},{"station_id": 26, "name": "Agra"},{"station_id": 27, "name": "Bhopal"},{"station_id": 28, "name": "Nagpur"},{"station_id": 29, "name": "Kolkata"},{"station_id": 30, "name": "Bhubaneswar"},{"station_id": 31, "name": "Ahmedabad"},{"station_id": 32, "name": "Jaipur"},{"station_id": 33, "name": "Lucknow"},{"station_id": 34, "name": "Ernakulam"},{"station_id": 35, "name": "Thiruvananthapuram"},{"station_id": 36, "name": "Vadodara"}],
 "train_stops":[
